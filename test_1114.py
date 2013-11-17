@@ -1,0 +1,1 @@
+# Verify that we can open and read the election results CSV correctly# Showing a "test-driven" styleimport hwk1from electiondata import ElectionResultsresults = hwk1.count_votes('election_results_test_file.csv')assert results == 1373687print 'test past'
